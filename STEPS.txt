@@ -1,0 +1,11 @@
+pip install Flask
+pip install python-dotenv
+
+
+use the below command to run the flask server:
+flask run --reload 
+
+https://youtu.be/fHQWTsWqBdE
+in the tutorial, instead of using docker, skip the part.
+To get your service up in the server use the following code:
+flask run --host=127.0.0.1 --port=5000 --reload
